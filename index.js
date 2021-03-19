@@ -81,7 +81,6 @@ client.on("guildMemberRemove", member => {
 
 });
 
-client.login(botConfig.token);
  
 client.on("message", async message => {
  
@@ -106,4 +105,4 @@ client.on("message", async message => {
 
 });
 
-Bot.login(process.env.token);
+client.login(process.env.token);
