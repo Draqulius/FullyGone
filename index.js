@@ -7,7 +7,7 @@ const client = new discord.Client();
 
 client.commands = new discord.Collection();
 
-fs.readdir("./commands/", (err, files) => {
+fs.readdir("./Commands/", (err, files) => {
 
     if (err) console.log(err);
 
