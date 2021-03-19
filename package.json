@@ -1,0 +1,23 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot voor UltraMT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "keywords": [
+    "Bot",
+    "UltraMT"
+  ],
+  "author": "Draqulius",
+  "license": "ISC",
+  "dependencies": {
+    "discord-giveaways": "^4.1.8",
+    "discord.js": "^12.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
