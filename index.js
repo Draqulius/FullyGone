@@ -40,13 +40,13 @@ client.on("ready", async () => {
 
 client.on("guildMemberAdd", member => {
 
-    var role = member.guild.roles.cache.get('821765802163437616');
+    var role = member.guild.roles.cache.get('822081514417815600');
 
     if(!role) return;
 
     member.roles.add(role);
 
-    var channel = member.guild.channels.cache.get('821765802327670826');
+    var channel = member.guild.channels.cache.get('822081514451894284');
 
     if (!channel) return;
 
@@ -66,7 +66,7 @@ client.on("guildMemberAdd", member => {
 
 client.on("guildMemberRemove", member => {
 
-    var channel = member.guild.channels.cache.get('822202312314585188');
+    var channel = member.guild.channels.cache.get('822929206627008572');
 
     if (!channel) return;
 
