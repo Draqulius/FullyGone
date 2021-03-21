@@ -2,8 +2,8 @@ const discord = require("discord.js");
 
 module.exports.run = async (client, message, args) => {
 
-    var categoryID = "821770942040506378"; //category id waar de sollicitaties moeten komen te staan
-    var staff = "821765802185326629"; // op deze manier alle staffleden die erin mogen neerzetten
+    var categoryID = "822081515404001281"; //category id waar de sollicitaties moeten komen te staan
+    var staff = "822081514433937410"; // op deze manier alle staffleden die erin mogen neerzetten
     var person = message.author;
 
     var channelName = "Sollicitatie " + message.author.username;
