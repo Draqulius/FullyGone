@@ -165,7 +165,7 @@ module.exports.run = async (client, message, args) => {
 }
 
 module.exports.help = {
-    name: "bla",
+    name: "apply",
     description: "Maak een sollicitatie",
     category: "Informatie"
 }
