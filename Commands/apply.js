@@ -1,7 +1,7 @@
 const discord = require("discord.js");
 
 module.exports.run = async (client, message, args) => {
-
+    if(message.author.id === '710445203156107264') return message.reply('sorry maar jij staat op de blacklist').then(msg => msg.delete({ timeout: 10000}));
     var categoryID = "822081515404001281"; //category id waar de sollicitaties moeten komen te staan
     var staff = "822081514433937417"; // op deze manier alle staffleden die erin mogen neerzetten
     var person = message.author;
@@ -14,7 +14,7 @@ module.exports.run = async (client, message, args) => {
 
         if(channel.name.toLowerCase() === channelName.toLowerCase()){
             ticket = true;
-            return message.reply("Je hebt al een ticket.").then(msg => msg.delete({ timeout: 3000}));
+            return message.reply("Je hebt al een solicitatie.").then(msg => msg.delete({ timeout: 3000}));
         }
         
     });
