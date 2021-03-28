@@ -33,7 +33,7 @@ client.on("ready", async () => {
 
     console.log(`${client.user.username} is online!`);
 
-    client.user.setActivity("Mensen", { type: "WATCHING" });
+    client.user.setActivity("play.FullyGone.com", { type: "PLAYING" });
 
 });
 
